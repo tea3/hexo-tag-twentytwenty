@@ -5,6 +5,7 @@ hexo.extend.tag.register('twtw', function(args, content){
   var beforeImg       = args[0];
   var afterImg        = args[1];
   var imgWidth        = "";
+  var maxWidth        = "";
   var imgHeight       = "";
   var divClass        = "";
   var imgClass        = "";
@@ -15,6 +16,7 @@ hexo.extend.tag.register('twtw', function(args, content){
   
   if(args.length > 2){
     imgWidth = ' data-width="' + args[2] + '"';
+    maxWidth = ' style="max-width:' + args[2] + 'px"';
   }
   if(args.length > 3){
     imgHeight = ' data-height="' + args[3] + '"';
@@ -93,7 +95,7 @@ hexo.extend.tag.register('twtw', function(args, content){
     embedAsset += '</script>';
   }
   
-  var returnHTML  = '<div'+ divClass +'><img'+ imgClass +' src="'+ beforeImg +'"' + imgWidth + imgHeight + '><img'+ imgClass +' src="'+ afterImg +'"'+ imgWidth + imgHeight + '></div>' + embedAsset;
+  var returnHTML  = '<div'+ divClass + maxWidth + '><img'+ imgClass +' src="'+ beforeImg +'"' + imgWidth + imgHeight + '><img'+ imgClass +' src="'+ afterImg +'"'+ imgWidth + imgHeight + '></div>' + embedAsset;
   return returnHTML;
 },{
   async: true,
