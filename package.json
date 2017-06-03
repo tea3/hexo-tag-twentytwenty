@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-twentytwenty",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index",
   "dependencies": {},
   "description": "Hexo tag to embed Image Comparison Slider Scripts. Image Comparison Slider depend on jQuery Twenty Twenty plugin.",
