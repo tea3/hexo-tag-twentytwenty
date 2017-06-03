@@ -97,7 +97,7 @@ For example , `/js/twentytwenty.js` is as follows .
       $(".twentytwenty-container").twentytwenty();
     }else{
       setTimeout(function(){
-        initialize_twtw();
+        initialize_twentytwenty();
       },250);
     }
   }
