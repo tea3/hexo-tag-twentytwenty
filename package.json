@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-twentytwenty",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index",
   "dependencies": {},
   "description": "Hexo tag to embed Image Comparison Slider Scripts. Image Comparison Slider depend on jQuery Twenty Twenty plugin.",
@@ -9,7 +9,7 @@
   "author": {
     "email": "tea3gtinfo@gmail.com",
     "name": "tea3",
-    "url": "https://tea3.github.io/"
+    "url": "https://photo-tea.com/"
   },
   "bugs": {
     "url": "https://github.com/tea3/hexo-tag-twentytwenty/issues"

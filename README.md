@@ -8,7 +8,7 @@ Hexo tag to embed Image Comparison Slider Scripts. Image Comparison Slider depen
 
 ## DEMO
 
-[https://tea3.github.io/p/hexo-tag-twentytwenty/](https://tea3.github.io/p/hexo-tag-twentytwenty/)
+[https://photo-tea.com/p/hexo-tag-twentytwenty/](https://photo-tea.com/p/hexo-tag-twentytwenty/)
 
 ## Installation
 
