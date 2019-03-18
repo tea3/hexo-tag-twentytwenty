@@ -95,7 +95,7 @@ hexo.extend.tag.register('twtw', function(args, content){
     embedAsset += '</script>';
   }
   
-  var returnHTML  = '<div'+ divClass + maxWidth + '><img'+ imgClass +' src="'+ beforeImg +'"' + imgWidth + imgHeight + '><img'+ imgClass +' src="'+ afterImg +'"'+ imgWidth + imgHeight + '></div>' + embedAsset;
+  var returnHTML  = '<div'+ divClass + maxWidth + '><img alt="before-image"'+ imgClass +' src="'+ beforeImg +'"' + imgWidth + imgHeight + '><img alt="after-image"'+ imgClass +' src="'+ afterImg +'"'+ imgWidth + imgHeight + '></div>' + embedAsset;
   return returnHTML;
 },{
   async: true,
